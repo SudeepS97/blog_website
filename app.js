@@ -49,10 +49,10 @@ app.get("/posts/:title", function (req, res) {
       matched = 1
       res.render("post", { title: post.title, post: post.post })
     }
-    if (matched == 0) {
-      res.render("home", { content: homeStartingContent, posts: posts });
-    }
   })
+  if (matched == 0) {
+    res.render("home", { content: homeStartingContent, posts: posts });
+  }
 })
 
 app.listen(3000, function () {
