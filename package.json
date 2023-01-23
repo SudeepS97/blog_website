@@ -1,24 +1,17 @@
 {
-  "name": "blog_website",
+  "name": "ejs-challenge",
   "version": "1.0.0",
-  "description": "blog website for web dev bootcamp",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SudeepS97/blog_website.git"
-  },
-  "author": "Sudeep Swarnapuri",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SudeepS97/blog_website/issues"
-  },
-  "homepage": "https://github.com/SudeepS97/blog_website#readme",
   "dependencies": {
-    "body-parser": "^1.20.1",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11"
   }
 }
